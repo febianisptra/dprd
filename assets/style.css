@@ -86,9 +86,9 @@ footer{
     padding: 10px;
 }
 
-.uk-subnav:first-child{
+/* .uk-subnav:first-child{
     background-color: #fff !important;
-}
+} */
 
 .textkategori{
     font-weight: 500;
@@ -105,13 +105,13 @@ footer{
 }
 
 
-.btn-content{
+/* .btn-content{
     border: 2px solid #FEBB26; 
     width: 100px;
     height: 35px;
     text-align: center !important;
     padding-top: 10px;
-}
+} */
 
 .btn-content:active{
     background-color:#FEBB26;
@@ -129,9 +129,49 @@ footer{
     color: #999 !important;
 }
 
-.textbtn:hover{
+.uk-subnav-pill .uk-active a{
+    padding-left: 0;
+    background-color: rgba(254, 187, 38, 0.05) !important;
+    border: 0.7px solid #FEBB26;
     color: #FEBB26 !important;
 }
+
+.uk-subnav-pill a{
+    border: 0.7px solid #EEEEEE ;
+    color: #999999!important;
+}
+
+.subnav{
+    background-color: #FEBB26;
+    padding: 7px 13px 7px 13px;
+    border-radius: 50px !important;
+}
+
+.textsmall{
+    font-weight: 600; font-size: 16px; line-height: 150%; margin-bottom: 3px; margin-top: 3px;
+}
+
+
+.headingdetail{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FEBB26;
+}
+
+.titledetail{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/* .textbtn:hover{
+    color: #FEBB26 !important;
+} */
 
 .uk-dotnav li:not(:first-child){
     padding-left: 8px !important;
@@ -234,6 +274,45 @@ footer{
     border-left: 3px solid #FEBB26;
     margin-right: -20px;
 }
+
+.texthome{
+    font-weight: 700; 
+    font-size: 25px; 
+    line-height: 24px !important;
+    margin-bottom: 7px; 
+    letter-spacing: 1px;
+}
+
+.texthomesmall{
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 20px; 
+    margin-bottom: 4px;
+}
+
+.time {
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 17px;
+}
+
+.clock{
+    color:#FEBB26 !important; 
+    padding-right: 3px; 
+    padding-top:0;
+}
+
+
+/* .gradient{
+    position: absolute;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.85) 16.41%, rgba(0, 0, 0, 0) 40.67%), url(../images/gedung-dprd-bandung.jpg) !important;
+} */
+
+.textheader{
+    font-size:19px; line-height: 27px; font-weight: 600;
+}
+
+
 
 
 
