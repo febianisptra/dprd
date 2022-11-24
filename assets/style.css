@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+@import url('https://fonts.cdnfonts.com/css/lato');
+
+body {
+    font-family: 'Poppins';
+    font-style: 'normal';
+}
+
+footer{
+    background-color: #181818;
+}
+
+/* fonts */
+.fontsource{
+    font-family:  'Source Sans Pro';
+    font-style: 'normal';
+}
+
+.fontlato{
+    font-family: 'Lato';
+    font-style: 'normal';
+}
+
+/* header */
+.header {
+    background-color: #181818;
+    opacity: 0.97;
+}
+
+.text-header{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.headertop{
+    padding-top: 8px;
+    padding-bottom: 0;
+}
+
+.text-white{
+    color: #fff !important;  
+    text-decoration: none !important; 
+}
+
+.b-icon{
+    background-color: #FEBB26 !important;
+    color: #1A1919 !important;
+}
+
+/* footer */
+.textfooter{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.headingfooter{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* homepage */
+
+.textagenda{
+    font-weight: 400;
+    font-size: 15.5416px;
+    line-height: 150%;
+}
+
+.text-black{
+    color: #212121 !important;
+    text-decoration: none !important;
+}
+
+/* .uk-subnav-pill .uk-active a:{
+    background-color: $subnav-pill-item-active-background;
+    background-color: #FEBB26!important;
+    border-radius: 10px !important;
+} */
+.btn-subnav{
+    background-color: #FEBB26 !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.uk-subnav:first-child{
+    background-color: #fff !important;
+}
+
+.textkategori{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 150%;
+}
+
+.linecamp{
+    overflow: hidden;
+    word-break: break-word;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical;
+}
+
+
+.btn-content{
+    border: 2px solid #FEBB26; 
+    width: 100px;
+    height: 35px;
+    text-align: center !important;
+    padding-top: 10px;
+}
+
+.btn-content:active{
+    background-color:#FEBB26;
+}
+
+.btn-content:nth-child(1){
+    border-right: 1px solid #FEBB26;
+}
+
+.btn-content:active{
+    background-color: rgba(254, 187, 38, 0.05);
+}
+
+.textbtn{
+    color: #999 !important;
+}
+
+.textbtn:hover{
+    color: #FEBB26 !important;
+}
+
+.uk-dotnav li:not(:first-child){
+    padding-left: 8px !important;
+}
+.uk-dotnav .uk-active a{
+    background-color: #FEBB26 !important;
+    border-color: transparent;
+}
+
+.uk-dotnav a{
+    background-color: rgba(217, 217, 217, 0.85) !important;
+    border: none !important;
+    width: 13px !important;
+    height: 13px !important;
+}
+
+.iconvid{
+    color: #fff!important;
+}
+
+.line{
+    margin-top: 180px;
+}
+
+.heading{
+    width: 430px;
+}
+
+.glr{
+    margin-left: 40px !important;
+}
+
+.btn-home{
+    padding: 12px 17px 12px 17px;
+    background-color: #FEBB26;
+    color: #212121;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.uk-divider-vertical{
+    border: none !important;
+}
+.headingberita {
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    line-height: 21px !important;
+    color: #FEBB26 !important;
+}
+
+.iconhal{
+    background-color:#FEBB26 !important;
+    border-radius: 50% !important;
+    padding:12px !important;
+}
+
+.icongal{
+    background-color:#FEBB26 !important;
+    border-radius: 50% !important;
+    padding:3px !important;
+}
+
+.ps-tags{
+    padding-left: 15px !important;
+    margin-top: 15px !important;
+}
+.tags{
+    padding: 8px;
+    border: 1px solid #FEBB26;
+    color: #FEBB26;
+}
+
+.textagenda p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height:30px;
+    color: #212121;
+}
+
+.textagenda p span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height:30px;
+    color: #FEBB26;
+}
+
+.btn-galeri{
+    color: #212121;
+}
+.btn-galeri:hover{
+    border: 1px solid #FEBB26; 
+    color: #FEBB26; 
+    background-color:rgba(254, 187, 38, 0.05);
+}
+
+.active{
+    border-left: 3px solid #FEBB26;
+    margin-right: -20px;
+}
+
+
+
