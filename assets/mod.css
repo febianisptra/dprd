@@ -84,4 +84,34 @@
     .time{
         font-size: 11px !important;
     }
+    #navbar {
+        padding: 15px 1px !important;
+        height: 80px !important;
+    }
+    #heading{
+        margin-top: -30px !important;
+        margin-left: 0 !important;
+    }
+    #images{
+        margin-right: 3px !important;
+        width: 50px !important;
+    }
+    .textnavbar{
+        margin-top: 25px !important;
+        margin-bottom: 0 !important;
+        font-size: 12px !important;
+    }
+    .responsivehome{
+        margin-top: 15px !important;
+    }
+    .tittle{
+        margin-left: 10px !important;
+        padding-top: 40px !important;
+    }
+    .homeres{
+        padding-left: 30px !important;
+    }
+    .btn-home{
+        font-size: 12px !important;
+    }
 }

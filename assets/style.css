@@ -45,6 +45,7 @@ footer{
 }
 
 .b-icon{
+    border-radius: 50% !important;
     background-color: #FEBB26 !important;
     color: #1A1919 !important;
 }
@@ -64,9 +65,14 @@ footer{
 
 /* homepage */
 
+.uk-navbar-item .uk-navbar-nav li a .uk-navbar-toggle{
+    font-family:  'Source Sans Pro' !important;
+    font-style: 'normal';
+}
+
 .textagenda{
     font-weight: 400;
-    font-size: 15.5416px;
+    font-size: 13px !important;
     line-height: 150%;
 }
 
@@ -227,7 +233,7 @@ footer{
 .iconhal{
     background-color:#FEBB26 !important;
     border-radius: 50% !important;
-    padding:12px !important;
+    padding:10px !important;
 }
 
 .icongal{
@@ -255,7 +261,7 @@ footer{
 
 .textagenda p span{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     line-height:30px;
     color: #FEBB26;
 }
@@ -300,6 +306,51 @@ footer{
     padding-right: 3px; 
     padding-top:0;
 }
+
+#navbar {
+    overflow: hidden;
+    background-color: #181818;
+    padding: 50px 0px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99; 
+  }
+  
+  #navbar #logo {
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.8s;
+  }
+  
+  
+  #navbar-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding-top:10px ;
+      height: 150px;
+    }
+    #navbar #logo{
+      margin-top: 15px !important;
+      margin-left: 7px;
+      width: 100px;
+      font-size: 20px !important;
+    }
+    #images{
+      width: 70px;
+    }
+    #navbar a {
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
 
 
 /* .gradient{
