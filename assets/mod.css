@@ -114,4 +114,18 @@
     .btn-home{
         font-size: 12px !important;
     }
+    .imagesresponsive{
+        width: 70px!important;
+        height: 70px !important;
+    }
+    .headingberita{
+        margin-top: 0 !important;
+        font-size: 13px !important;
+    }
+    .divider{
+        margin-top: 0 !important;
+    }
+    .imghome{
+        height: 200px !important;
+    }
 }
