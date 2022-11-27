@@ -104,6 +104,81 @@
     .responsivehome{
         margin-top: 15px !important;
     }
+    .ps-tags{
+        font-size: 10px !important
+    }
+    .headingdetail{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .titledetail{
+        font-size: 8px;
+        margin-top: 5px !important;
+    }
+    .responsiveakd{
+        padding-left: 30px !important;
+    }
+    .d-b{
+        padding-left: 0 !important;
+    }
+    .restext{
+        font-size: 10px !important;
+        line-height: 10px !important;
+        margin-bottom: 3px !important;
+    }
+    .positiontext{
+        margin-left: 10px !important;
+        bottom: 60px !important;
+    }
+    .iconres{
+        width: 40px !important;
+        margin-top: 50px !important;
+        left: 41% !important;
+    }
+    .iconresp{
+        width: 20px !important;
+    }
+    .resimgvid{
+        width: 60px !important;
+        height: 50px !important;
+    }
+    .padrem{
+        padding-left: 10px !important;
+    }
+    .resimgv{
+        width: 300px !important;
+    }
+    .vidres{
+        height: 50px !important
+    }
+    .reshevid{
+        height: 250px !important;
+        width: 70px !important;
+    }
+    .resimg{
+        width: 100px !important;
+        height: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .reste{
+        font-size: 7px !important;
+    }
+    .responthum{
+        width: 40px !important;
+    }
+    .responbtn{
+        width: 30px !important;
+        height: 30px !important;
+        border: 1px solid #FEBB26 !important;
+    }
+    .respontittle{
+        font-size: 10px !important;
+        line-height: 15px !important;
+    }
+    .poscenter{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
     .tittle{
         margin-left: 10px !important;
         padding-top: 40px !important;
