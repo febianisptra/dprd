@@ -160,6 +160,15 @@
         height: 70px !important;
         padding-bottom: 20px !important;
     }
+    .resimg1{
+        width:300px !important;
+    }
+    .textres{
+        font-size: 10px !important;
+    }
+    .padbo{
+        padding-bottom: 20px !important;
+    }
     .reste{
         font-size: 7px !important;
     }
